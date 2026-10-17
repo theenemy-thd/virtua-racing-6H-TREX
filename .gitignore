@@ -1,0 +1,7 @@
+# ROM images are not distributed here; build or patch your own.
+*.bin
+*.md.bin
+*.sym
+*.o
+*.elf
+!trainer/test-tools/*
