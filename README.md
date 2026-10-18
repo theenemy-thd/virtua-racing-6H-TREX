@@ -46,7 +46,7 @@ No ROM is included. Apply a patch from [`patches/`](patches/) to your own copy o
 
 | Patch | Result | Result CRC32 |
 | --- | --- | --- |
-| `Virtua Racing (U) [SRAM] [T+6].bps` / `.ips` | Trainer + saving (the full hack) | `7DB5E289` |
+| `Virtua Racing (U) [SRAM] [T+6].bps` / `.ips` | Trainer + saving (the full hack) | `BB24CE3F` |
 | `Virtua Racing (U) [SRAM].bps` / `.ips` | Saving only, no trainer | `2D7EFF2F` |
 
 The BPS patches check the input ROM's CRC; the IPS patches don't, so check your ROM first.

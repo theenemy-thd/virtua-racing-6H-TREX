@@ -5,7 +5,7 @@ from `../sram/` with the Y/N trainer menu from
 a generic Mega Drive trainer menu in front of it. Records still save to battery SRAM.
 
 - Input ROM: `Virtua Racing (U) [SRAM].bin`, CRC32 `2D7EFF2F`
-- Output ROM: CRC32 `7DB5E289`, header checksum `$05CA`
+- Output ROM: CRC32 `BB24CE3F`, header checksum `$F55D`
 
 ![menu](screenshots/menu.png)
 
@@ -16,6 +16,9 @@ cheats and the instructions, which are in cyan. It shows at power-on and on
 Reset. Up/Down picks a cheat, Left/Right or any button (A, B, C, and X, Y,
 Z on a 6-button pad) turns it on or off, and Start runs the game. Every
 cheat starts off.
+
+The menu font is "Invasion" by VileR, from the
+[VGA text mode fonts](https://github.com/viler-int10h/vga-text-mode-fonts) collection.
 
 | Cheat | What it does |
 | --- | --- |
